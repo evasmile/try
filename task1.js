@@ -1,6 +1,6 @@
-function addNumbers(num1 , num2){
+function addNumbers(num1 , num2,name){
   var total =  num1 + num2 ;
-  console.log(total);
+  console.log(total + name);
 }
 
-addNumbers(2,3)
+addNumbers(2,3,surprise)
